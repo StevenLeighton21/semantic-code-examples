@@ -1,0 +1,11 @@
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/bin/Debug/netcoreapp2.2/PoetryForMachines.deps.json
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/bin/Debug/netcoreapp2.2/PoetryForMachines.runtimeconfig.json
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/bin/Debug/netcoreapp2.2/PoetryForMachines.runtimeconfig.dev.json
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/bin/Debug/netcoreapp2.2/PoetryForMachines.dll
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/bin/Debug/netcoreapp2.2/PoetryForMachines.pdb
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/obj/Debug/netcoreapp2.2/PoetryForMachines.csprojAssemblyReference.cache
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/obj/Debug/netcoreapp2.2/PoetryForMachines.csproj.CoreCompileInputs.cache
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/obj/Debug/netcoreapp2.2/PoetryForMachines.AssemblyInfoInputs.cache
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/obj/Debug/netcoreapp2.2/PoetryForMachines.AssemblyInfo.cs
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/obj/Debug/netcoreapp2.2/PoetryForMachines.dll
+/Users/stevenleighton/workspace/PoetryForMachines/PoetryForMachines/obj/Debug/netcoreapp2.2/PoetryForMachines.pdb

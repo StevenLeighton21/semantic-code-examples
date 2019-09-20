@@ -1,0 +1,17 @@
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/bin/Debug/netcoreapp2.2/CodeForHumans.deps.json
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/bin/Debug/netcoreapp2.2/CodeForHumans.runtimeconfig.json
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/bin/Debug/netcoreapp2.2/CodeForHumans.runtimeconfig.dev.json
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/bin/Debug/netcoreapp2.2/CodeForHumans.dll
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/bin/Debug/netcoreapp2.2/CodeForHumans.pdb
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/bin/Debug/netcoreapp2.2/PoetryForMachines.dll
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/bin/Debug/netcoreapp2.2/PoetryForMachines.pdb
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/obj/Debug/netcoreapp2.2/CodeForHumans.csprojAssemblyReference.cache
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/obj/Debug/netcoreapp2.2/CodeForHumans.csproj.CoreCompileInputs.cache
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/obj/Debug/netcoreapp2.2/CodeForHumans.AssemblyInfoInputs.cache
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/obj/Debug/netcoreapp2.2/CodeForHumans.AssemblyInfo.cs
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/obj/Debug/netcoreapp2.2/CodeForHumans.csproj.CopyComplete
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/obj/Debug/netcoreapp2.2/CodeForHumans.dll
+/Users/stevenleighton/workspace/PoetryForMachines/CodeForHumans/obj/Debug/netcoreapp2.2/CodeForHumans.pdb

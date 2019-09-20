@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoetryForMachines", "PoetryForMachines\PoetryForMachines.csproj", "{7EC5B87F-FD2A-4EFE-B1DE-5272437DAB06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeForHumans", "CodeForHumans\CodeForHumans.csproj", "{75B9EE71-FC0F-4129-A60A-DD2D420DDC7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EC5B87F-FD2A-4EFE-B1DE-5272437DAB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC5B87F-FD2A-4EFE-B1DE-5272437DAB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC5B87F-FD2A-4EFE-B1DE-5272437DAB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC5B87F-FD2A-4EFE-B1DE-5272437DAB06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B9EE71-FC0F-4129-A60A-DD2D420DDC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B9EE71-FC0F-4129-A60A-DD2D420DDC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B9EE71-FC0F-4129-A60A-DD2D420DDC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B9EE71-FC0F-4129-A60A-DD2D420DDC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
