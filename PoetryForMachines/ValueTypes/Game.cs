@@ -1,8 +1,8 @@
 namespace PoetryForMachines.ValueTypes
 {
-    public class BowlingGameStatus
+    public class Game
     {
-        public BowlingGameStatus()
+        public Game()
         {
             Status = "Not started";
         }

@@ -41,7 +41,7 @@ namespace CodeForHumans.TestUtilities
 
         public string Check_status_of_game()
         {
-            return _game.CheckStatus().Status;
+            return _game.GameInformation().Status;
         }
 
         public void Game_has_started()
@@ -52,7 +52,7 @@ namespace CodeForHumans.TestUtilities
 
         public void Inspect_score()
         {
-            _currentScore = _game.CheckCurrentScore();
+            _currentScore = _game.WhatIsTheScore();
         }
 
         public int Current_frame()
@@ -68,7 +68,7 @@ namespace CodeForHumans.TestUtilities
         public void SetupGameAt(BowlingFrame frame)
         {
             _game = new Bowling(
-                new BowlingGameStatus
+                new Game
                     {
                         Status = "In Progress"
                     }, 
@@ -76,9 +76,11 @@ namespace CodeForHumans.TestUtilities
                     {
                         Frame = frame.Frame,
                         Score = frame.StartingScore,
-                        Ball = frame.Ball
-                    });
-            
+                        Ball = frame.Ball,
+                        Spare = false,
+                    },
+                0
+                );            
         }
 
         public void Bowl(int i)
@@ -89,6 +91,11 @@ namespace CodeForHumans.TestUtilities
         public int Current_ball()
         {
             return _currentScore.Ball;
+        }
+
+        public void SetPreviousBallTo(int i)
+        {
+            _game.ThePreviousBowlThisFrameWas(i);
         }
     }
 }

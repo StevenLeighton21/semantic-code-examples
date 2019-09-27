@@ -55,8 +55,44 @@ namespace CodeForHumans
             When(I_bowl(3));
             Then(My(2,1,8));
         }
+
+        [Test]
+        public void I_bowl_a_5_on_my_second_frame()
+        {
+            Given(Frame_two_ball_one_score_eight());
+            When(I_bowl(5));
+            Then(My(2,2,13));
+        }
         
+        [Test]
+        public void I_bowl_a_spare_on_my_second_frame()
+        {
+            Given(Frame_two_ball_two_score_thirteen());
+            When(I_bowl(5));
+            Then(My(3,1,13));
+        }
+
+        private BowlingFrame Frame_two_ball_two_score_thirteen()
+        {
+            return new BowlingFrame
+            {
+                Frame = 2,
+                Ball = 2,
+                StartingScore = 13
+            };
+        }
+
         #region Test functionality
+
+        private BowlingFrame Frame_two_ball_one_score_eight()
+        {
+            return new BowlingFrame
+            {
+                Frame = 2,
+                Ball = 1,
+                StartingScore = 8
+            };
+        }
 
         private BowlingFrame Frame_one_ball_two_score_five()
         {
@@ -83,7 +119,7 @@ namespace CodeForHumans
                 Frame = frame_is,
                 Ball = ball_is,
                 StartingScore = score_is
-            }; ;
+            };
         }
 
         private string I_bowl(int i)
@@ -95,6 +131,7 @@ namespace CodeForHumans
         private void Given(BowlingFrame frame)
         {
             _test.SetupGameAt(frame);
+            _test.SetPreviousBallTo(5);
         }
 
         private BowlingFrame Frame_one_ball_one()

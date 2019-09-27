@@ -4,53 +4,69 @@ namespace PoetryForMachines
 {
     public class Bowling
     {
-        private readonly BowlingGameStatus _status;
-        private readonly PlayerScore _playerScore;
+        private readonly Game _game;
+        private readonly PlayerScore _player;
+        private int _bowlOne;
 
         public Bowling()
         {
-            _playerScore = new PlayerScore();
-            _status = new BowlingGameStatus();
+            _player = new PlayerScore();
+            _game = new Game();
+            _bowlOne = 0;
         }
 
-        public Bowling(BowlingGameStatus status, PlayerScore playerScore)
+        public Bowling(Game game, PlayerScore player, int bowlOne)
         {
-            _status = status;
-            _playerScore = playerScore;
+            _game = game;
+            _player = player;
+            _bowlOne = bowlOne;
         }
 
         public void Start()
         {
-            _status.Status = "In Progress";
-            _playerScore.Frame = 1;
-            _playerScore.Score = 0;
+            _game.Status = "In Progress";
         }
 
-        public BowlingGameStatus CheckStatus()
+        public Game GameInformation()
         {
-            return _status;
+            return _game;
         }
 
-        public PlayerScore CheckCurrentScore()
+        public PlayerScore WhatIsTheScore()
         {
-            return _playerScore;
+            return _player;
+        }
+
+        public void ThePreviousBowlThisFrameWas(int i)
+        {
+            _bowlOne = i;
         }
 
         public void Bowl(int i)
         {
-            _playerScore.Score += i;
 
-            if (_playerScore.Ball == 1)
+            if (_player.Ball == 1)
             {
-                _playerScore.Ball++;    
+                _player.Ball++;
+                _bowlOne = i;
+                _player.Score += i;
             }
             
-            else if (_playerScore.Ball == 2)
+            else if (_player.Ball == 2)
             {
-                _playerScore.Ball = 1;
-                _playerScore.Frame++;
+                if (_bowlOne + i == 10)
+                {
+                    _player.Ball = 1;
+                    _player.Frame++;
+                    _player.Spare = true;
+                }
+                else
+                {
+                    _player.Ball = 1;
+                    _player.Frame++;
+                    _player.Score += i;
+                }
             }
-            
         }
     }
 }
